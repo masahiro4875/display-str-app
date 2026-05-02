@@ -26,7 +26,7 @@ function App() {
         <div style={{ display: 'flex', justifyContent: 'center', padding: '40px', backgroundColor: '#f0f2f5', minHeight: '100vh' }}>
             <div style={{ backgroundColor: 'white', padding: '30px', borderRadius: '12px', boxShadow: '0 4px 12px rgba(0,0,0,0.1)', width: '100%', maxWidth: '500px' }}>
                 <form onSubmit={handleSubmit}>
-                    <h2 style={{ textAlign: 'center', color: '#333', marginBottom: '20px' }}>文字を入力してください</h2>
+                    <h2 style={{ textAlign: 'center', color: '#333', marginBottom: '20px' }}>test文字を入力してください</h2>
 
                     <input value={inputValue} onChange={handleChange} style={inputStyle}></input>
                     <div style={{ gridColumn: '1 / span 2', marginTop: '10px' }}>
